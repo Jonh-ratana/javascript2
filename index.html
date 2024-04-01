@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="boostrap_link/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="boostrap_link/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="all-contain">
+        <main>
+            <div class="Logo ">
+                <img src="img/eaon_logo.jpg" alt="" height="100%">
+            </div>
+
+            <div class="all-menu">
+                <nav class="menu">
+                    <ul>
+                       <div class="home">
+                        <li><a href="#">
+                            <div class="A">HOME</div>
+                        </a></li>
+                       </div>
+                       <div class="shopp">
+                        <li><a href="#"><div class="B">
+                            SHOPPING GUIDE
+                        </div></a></li>
+                       </div>
+                        <div class="parking">
+                            <li><a href="#">
+                                <div class="C">
+                                    PARKING
+                                </div>
+                            </a></li>
+                        </div>
+                        <div class="video">
+                            <li><a href="#">
+                                <div class="D">
+                                    VIDEO GALLERY
+                                </div>
+                            </a></li>
+                        </div>
+                        <div class="common">
+                            <li><a href="#">
+                                <div class="E">
+                                    COMMON AREA INFORMATION
+                                </div>
+                            </a></li>
+                        </div>
+                        <div class="mall">
+                            <li><a href="#">
+                                <div class="F">
+                                    MALL GUIDE
+                                </div>
+                            </a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+            <button type="button" id="add">
+                <i class="bi bi-list"></i>
+
+            </button>
+            <!-- <i class="home d-none" style="margin: 50px;">home</i> -->
+            <ul class="menu-2">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SHOPPING GUIDE</a></li>
+                <li><a href="#">PARKING</a></li>
+                <li><a href="#">VIDEO GALLERY</a></li>
+                <li><a href="#">COMMON AREA INFORMATION</a></li>
+                <li><a href="#">MALL GUIDE</a></li>
+            </ul>
+
+
+        </div>
+    <div class="shopping" style="background-color: rgb(255, 255, 255); ">
+        <div class="shop">
+            <h2 style="text-align: center; color: #B00081;">SHOPPING GUIDE</h2>
+            <div class="search">
+                <input type="text" placeholder="Search Shop name">
+                <input type="text" name="" id="" placeholder="Search Shop Category">
+                    
+
+            </div>
+            <p style="font-size: 15px; font-size: 15px; color: green;">SHOP LIST</p>
+
+               
+            <div class="all-card">
+                <div id="product" class="CD1 row m-0 pt-1 ">
+                    
+                </div>
+
+                <!-- ==================Pagination================= -->
+                <nav aria-label="Page navigation example" class="mt-4 w-100 pb-2">
+                    <ul class="pagination" style="display: flex; justify-content: center;">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link bg-black p-0"><button type="button" id="b1">1</button></a></li>
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b2">2</button></a></li>
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b3">3</button></a></li>
+                      <!-- <li class="page-item"><a class="page-link p-0"><button type="button" id="b4">4</button></a></li> -->
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b6">...</button></a></li>
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b7">12</button></a></li>
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b8">13</button></a></li>
+                      <li class="page-item"><a class="page-link p-0"><button type="button" id="b9">14</button></a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+            </div>
+
+
+
+        </div>
+    </div>
+        <div class="floor">
+            <div class="text" style="width: 100%; height: 100px; background-color:rgb(255, 255, 255);">
+                <h1 style="display: flex; justify-content: center ; padding-top: 20px; color:  #B00081;">FLOOR GUIDE</h1>
+            </div>
+    
+    
+            <div class="map m-auto" style="width: 500px; height: 600px; background-color: rgb(177, 179, 180);">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <!-- <img src="img/Gongcha.png" class="d-block w-100 h-50" alt="..."> -->
+                        <h1 style="color: aliceblue; text-align: center;">No map</h1>
+                      </div>
+                      <div class="carousel-item">
+                        <!-- <img src="img/gym.jpg" class="d-block w-100" alt="..."> -->
+                      </div>
+                      <div class="carousel-item">
+                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+    
+    
+        </div>  
+
+    <div class="footer">
+        <div class="eaon-pp">
+            <h3 style="text-align: center; color: #B00081;">AEON MALL Phnom Penh</h3>
+        </div>
+        <p style="font-size: 15px; text-align: center; color: #9b979a;">#132, Street Somdach Sothearos, Songkat Tonle Bassac, Khan Chamkarmon, Phnom Penh, Cambodia.</p>
+        
+           <img src="img/image.png" alt="" width="100%">
+        </div>
+
+        <div class="end">
+            <div class="left" style="position: relative;">
+               <p style="margin: 0 auto; font-size: 17px; width: 100%; background-color:unset; text-align: center; position: absolute; top: 45px;">Copyright © 2024</p>
+                <p style="margin: 0 auto; font-size: 17px; width: 100%; background-color:unset; text-align: center; position: absolute; top: 70px;">AEON MALL Phnom Penh</p>
+                <p style="margin: 0 auto; font-size: 17px; width: 100%; background-color:unset; text-align: center; position: absolute; top: 95px;">All Rights Reserved !</p>
+            </div>
+            <div class="center">
+                <div class="facebook">
+                   
+                    <div class="face">
+                         <div class="message">
+                            <div class="degre">
+                                
+                            </div>
+                            <p style="font-size: 15px;  color: rgb(255, 255, 255); text-align: center; ">Facebook</p>
+                            
+                    </div>
+                        <div class="logo">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram">
+                    <div class="in">
+                        <div class="message1">
+                            <div class="degre1">
+                                
+                            </div>
+                            <p style=" color: rgb(255, 255, 255); text-align: center; ">Instagram</p>
+                            
+                    </div>
+                        <div class="logo">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="tiktok">
+                    <div class="tik">
+                        <div class="message2">
+                            <div class="degre2">
+                                
+                            </div>
+                            <p style=" color: rgb(255, 255, 255); text-align: center; ">TikTok</p>
+                            
+                    </div>
+                        <div class="logo">
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="li">
+                        <div class="message3">
+                            <div class="degre3">
+                                
+                            </div>
+                            <p style=" color: rgb(255, 255, 255); text-align: center; ">Line</p>
+                            
+                    </div>
+                        <div class="logo">
+                            <i class="bi bi-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube">
+                    <div class="you">
+                        <div class="message4">
+                            <div class="degre4">
+                                
+                            </div>
+                            <p style="font-size: 15px; color: rgb(255, 255, 255); text-align: center; ">Youtube</p>
+                            
+                    </div>
+                        <div class="logo">
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right">
+                <img src="img/eaon_logo.jpg" alt="" width="80%" height="60%" style="margin-top: 35px; margin-left: 60px;">
+            </div>
+        </div>
+
+    
+    </main>
+    
+</body>
+<script src="script.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#add').click(function () {
+            $(".menu-2").slideToggle();
+        })
+    })
+</script>
+
+</html>
